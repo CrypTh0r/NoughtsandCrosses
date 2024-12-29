@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Noughts and Crosses</title>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='container text-center'>
+  <div class='jumbotron'>
+    <h2>Noughts and Crosses</h2><br></br>
+    <div class='board center-block'>
+      <div class='row'>
+        <button id='1' class="col-xs-4 btn btn-secondary btn-lg"></button>
+        <button id='2' class="col-xs-4 btn btn-secondary btn-lg"></button>
+        <button id='3' class="col-xs-4 btn btn-secondary btn-lg"></button>
+      </div>
+      <div class='row'>
+        <button id='4' class="col-xs-4 btn btn-secondary btn-lg"></button>
+        <button id='5' class="col-xs-4 btn btn-secondary btn-lg"></button>
+        <button id='6' class="col-xs-4 btn btn-secondary btn-lg"></button>
+      </div>
+      <div class='row'>
+        <button id='7' class="col-xs-4 btn btn-secondary btn-lg"></button>
+        <button id='8' class="col-xs-4 btn btn-secondary btn-lg"></button>
+        <button id='9' class="col-xs-4 btn btn-secondary btn-lg"></button>
+      </div>
+    </div>
+  <h3 id='result'></h3>
+  <!-- Button trigger modal -->
+  <button type="button" id='start' class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Start</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h2 class="modal-title" id="myModalLabel">Play as X or O?</h2>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer center-block">
+          <button id='select_x' type="button" class="btn btn-secondary" data-dismiss="modal">|Play as X|</button>
+          <button id='select_o' type="button" class="btn btn-primary" data-dismiss="modal">|Play as O|</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

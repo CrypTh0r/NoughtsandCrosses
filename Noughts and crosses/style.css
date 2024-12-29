@@ -1,0 +1,26 @@
+html, body{
+  font-family: 'Arial';
+  background-color: black;
+}
+
+.container{
+  max-width: 500px;
+}
+
+.jumbotron{
+  margin-top: 40px;
+  background-color: grey;
+  color: black;
+}
+
+.board{
+  max-width: 300px;
+}
+
+.btn{
+  height: 65px;
+  font-size: 22px;
+  background-color: black;
+  color: #ecf0f1;
+  border: 1px solid #ecf0f1;
+}
